@@ -16,7 +16,7 @@ function displayGrid(){
         alert("Please enter a number between 0 and 100");
         return;
     }
-    
+
     let columnSize = String(`${GRID_WIDTH/columnNum}px `);
     let gridTemplateColumns = columnSize.repeat(columnNum);
     container.style.gridTemplateColumns = gridTemplateColumns;
@@ -32,4 +32,5 @@ function displayGrid(){
 
         container.appendChild(grid);
     }
+    return false;
 }
