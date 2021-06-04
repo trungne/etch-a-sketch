@@ -1,4 +1,4 @@
-let GRID_WIDTH = 500; // 300px
+let GRID_WIDTH = 700; // 300px
 
 function displayGrid(){
     const container = document.getElementById("container");
